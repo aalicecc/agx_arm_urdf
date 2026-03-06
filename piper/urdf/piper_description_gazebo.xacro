@@ -428,7 +428,7 @@
     </collision>
   </link>
   <joint
-    name="joint7"
+    name="gripper_joint1"
     type="prismatic">
     <origin
       xyz="0 0 0.1358"
@@ -487,7 +487,7 @@
     </collision>
   </link>
   <joint
-    name="joint8"
+    name="gripper_joint2"
     type="prismatic">
     <origin
       xyz="0 0 0.1358"
@@ -601,7 +601,7 @@
           </state_interface>
           <state_interface name="velocity"/>
       </joint>
-      <joint name="joint7">
+      <joint name="gripper_joint1">
           <command_interface name="position">
               <param name="min">-1</param>
               <param name="max">1</param>
@@ -611,7 +611,7 @@
           </state_interface>
           <state_interface name="velocity"/>
       </joint>
-      <joint name="joint8">
+      <joint name="gripper_joint2">
           <command_interface name="position">
               <param name="min">-1</param>
               <param name="max">1</param>

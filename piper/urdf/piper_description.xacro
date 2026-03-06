@@ -428,7 +428,7 @@
     </collision>
   </link>
   <joint
-    name="joint7"
+    name="gripper_joint1"
     type="prismatic">
     <origin
       xyz="0 0 0.1358"
@@ -486,7 +486,7 @@
     </collision>
   </link>
   <joint
-    name="joint8"
+    name="gripper_joint2"
     type="prismatic">
     <origin
       xyz="0 0 0.1358"
@@ -524,8 +524,8 @@
   <xacro:transmission_block tran_name="tran4" joint_name="joint4" motor_name="motor4"/>
   <xacro:transmission_block tran_name="tran5" joint_name="joint5" motor_name="motor5"/>
   <xacro:transmission_block tran_name="tran6" joint_name="joint6" motor_name="motor6"/>
-  <xacro:transmission_block tran_name="tran7" joint_name="joint7" motor_name="motor7"/>
-  <xacro:transmission_block tran_name="tran8" joint_name="joint8" motor_name="motor8"/>
+  <xacro:transmission_block tran_name="tran7" joint_name="gripper_joint1" motor_name="motor7"/>
+  <xacro:transmission_block tran_name="tran8" joint_name="gripper_joint2" motor_name="motor8"/>
 <!-- gazebo -->
   <gazebo>
     <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">

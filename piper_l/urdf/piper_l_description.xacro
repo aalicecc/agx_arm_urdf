@@ -382,7 +382,7 @@
   </collision>
 </link>
 
-    <joint name="joint7" type="prismatic">
+    <joint name="gripper_joint1r_joint_1" type="prismatic">
         <origin xyz="0 0 0.13503" rpy="1.5708 0 0" />
         <parent link="link6" />
         <child link="link7" />
@@ -420,7 +420,7 @@
         </geometry>
         </collision>
     </link>
-    <joint name="joint8" type="prismatic">
+    <joint name="gripper_joint2" type="prismatic">
         <origin xyz="0 0 0.13503" rpy="-1.5708 0 0" />
         <parent link="link6" />
         <child link="link8" />
